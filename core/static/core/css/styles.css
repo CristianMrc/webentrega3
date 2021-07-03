@@ -1,0 +1,61 @@
+.jumbotron {
+    border-end-end-radius: 0.4rem;
+      /*border-radius: 0;*/
+  }
+  
+  .carousel .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+  
+  .footer {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .footer a{
+    color: white;
+  }
+  
+  .footer a:hover{
+    color:black;
+  }
+  .bg-balon {
+    background-color: #F37F1F;
+  }
+  .bg-letra {
+    background-color: whitesmoke;
+  }
+  .bg-negro {
+    background-color: black;
+  }
+  .hr-transparente {
+    Background-color: #fdfdfd00;
+    clear: both;
+    visibility: hidden;
+  }
+  .a-banner-link-text-white{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .a-banner-link-text-white:hover{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .btn-naranjo {
+    color: #fff;
+    background-color: #ff8800;
+    border-color: #ff8800;
+  }
+  
+  .btn-naranjo:hover {
+    color: #fff;
+    background-color: #ff5e00;
+    border-color: #ff5e00;
+  }
+  .i-link:hover {
+    color: red;
+  }

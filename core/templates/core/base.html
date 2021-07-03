@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../static/core/css/bootstrap.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+
+    <!-- CSS Propios -->
+    <link rel="stylesheet" href="../static/core/css/styles.css">
+
+    <link  rel="icon"   href="../static/core/img/icono slam.png" type="image/png" />
+    <title>Inicio Basketmania</title>
+</head>
+<body>
+    <!-- NavBar Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-balon">
+        <a class="navbar-brand" href="#">
+            <img src="../static/core/img/icono slam.png" alt="BRAND" height="100px" width="100px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link {% block link %}{% endblock %}" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profesional.html">Profesional</a>
+                </li>                
+                <li class="nav-item">
+                    <a class="nav-link" href="and1.html">AND 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="recreativo.html">Recreativo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">Sobre Nosotros</a>
+                </li>
+            </ul>
+            <form class="d-flex ms-auto me-5">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+   {% block content %}{% endblock %}
+
+    <!-- Footer Section -->
+    <footer class="footer mt-4 py-4 bg-balon">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-2 mt-2 mb-2 ">
+                    <img src="../static/core/img/icono slam.png" alt="BRAND" height="200px" width="200px">
+                </div>
+                <div class="col-sm-12 col-md-2 mt-2 mb-2">
+                    <p>BASKETMANIA</p>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="profesional.html">Profesional</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="and1.html">AND 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="recreativo.html">Recreativo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">Sobre Nosotros</a>
+                        </li>
+                      </ul>
+                </div>
+                <div class="col-sm-12 col-md-2 mt-2 mb-2">
+                    <p>MARCAS</p>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="https://and1.com/">AND 1</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="https://spalding.cl/">SPALDING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.adidas.cl/">ADIDAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.nike.com/cl/jordan">NIKE JORDAN </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://cl.puma.com/">PUMA</a>
+                        </li>
+                      </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 text-center mt-4 mb-4">
+                    <div class="card bg-negro text-light">
+                        <div class="card-header text-center">
+                            <h3 class="card-title">¡Suscríbete a nuestro sitio!</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="input-group">
+                                <input type="email" class="form-control" name="email" placeholder="correo@correo.com">
+                                <div class="input-group-append">
+                                    <button class="btn btn-success" type="submit">Enviar</button>
+                                </div>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a class="card-link" href="http://www.facebook.com" target="_blank">
+                                    <span style="font-size: 3em;">
+                                        <i class="fab fa-facebook-f i-link"></i>
+                                    </span>
+                                </a>
+                                <a class="card-link" href="http://instagram.com" target="_blank">
+                                    <span style="font-size: 3em;">
+                                        <i class="fab fa-instagram i-link"></i>
+                                    </span>
+                                </a>
+                                <a class="card-link" href="http://twitter.com" target="_blank">
+                                    <span style="font-size: 3em;">
+                                        <i class="fab fa-twitter i-link"></i>
+                                    </span>
+                                </a>
+                                <a class="card-link" href="http://twitch.tv" target="_blank">
+                                    <span style="font-size: 3em;">
+                                        <i class="fab fa-twitch i-link"></i>
+                                    </span>
+                                </a>
+                                <a class="card-link" href="http://www.pinterest.com" target="_blank">
+                                    <span style="font-size: 3em;">
+                                        <i class="fab fa-pinterest i-link"></i>
+                                    </span>
+                                </a>
+                            </div>  
+                        </div>
+                    </div>
+                </div>              
+            </div>
+        </div>
+    </div>
+<!-- END Footer Section-->
+   
+<!-- Javascript Optional -->
+<!-- Jquery first, then Popper.js, then Bootstrap JS -->
+   <script src="../static/core/js/jquery-3.6.0.min.js"></script>
+   <script src="../static/core/js/popper.min.js"></script>
+   <script src="../static/core/js/bootstrap.min.js"></script>
+</body>
+</html>
