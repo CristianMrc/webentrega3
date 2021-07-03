@@ -5,5 +5,5 @@ from django.shortcuts import render, HttpResponse
 def home(request):
     return render(request, "core/home.html")
 
-def about(request):
-    return HttpResponse("<h2>Sobre Nosotros</h2>")    
+def profesional(request):
+    return render(request, "core/profesional.html")   

@@ -1,0 +1,108 @@
+{% extends 'core/base.html'%}
+{% block link-profesional %}active{%endblock%}
+{% block content %}
+<hr class="hr-transparente">
+<!-- Carrusel con Imágenes -->
+<div class="container-fluid">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..\static\core\img\Encesta como los grandes.jpg" class="d-block w-100" alt="Foto1Pro">
+          </div>
+          <div class="carousel-item">
+            <img src="..\static\core\img\Encesta como los grandes2.jpg" class="d-block w-100" alt="Foto2Pro">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+<hr class="hr-transparente">
+<!-- Cards con imágen y texto -->
+<div class="container">
+    <div class="card-group">
+            <div class="card mr-3 ml-3" >
+                <img src="..\static\core\img\Camisetas1.jpg" class="card-img-top" alt="Camiseta Lakers">
+                <div class="card-body bg-balon">
+                  <p class="card-text font-weight-bold text-center">Camiseta de los Lakers</p>
+                </div>
+              </div>
+            <div class="card mr-3 ml-3
+            ">
+                <img src="..\static\core\img\Camisetas2.jpg"  class="card-img-top" alt="Camiseta Spurs">
+                <div class="card-body bg-balon">
+                  <p class="card-text font-weight-bold text-center">Camiseta de los Spurs</p>
+                </div>
+            </div>
+        
+            <div class="card mr-3 ml-3">
+                <img src="..\static\core\img\Camisetas3.jpg"  class="card-img-top" alt="Camiseta Bayern">
+                <div class="card-body bg-balon">
+                  <p class="card-text font-weight-bold text-center">Camiseta del Bayern Basketball</p>
+                </div>
+              </div>
+        
+        
+            <div class="card mr-3 ml-3">
+                <img src="..\static\core\img\Camisetas4.jpg" class="card-img-top" alt="Camiseta Real Madrid">
+                <div class="card-body bg-balon">
+                  <p class="card-text font-weight-bold text-center">Camiseta del Real Madrid Baloncesto</p>
+                </div>
+              </div>
+        
+    </div>
+<hr class="hr-transparente">
+<!--Segunda seccion de Cards Aros y Balones-->    
+<div class="container">
+    <div class="row">
+        <div class="card-group  justify-content-center">    
+        <div class="card mb-6" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-3">
+                <img src="..\static\core\img\Clavado Profesional.jpg" alt="CanastaProfesional" width="100%" height="100%">
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title">Aros</h5>
+                  <p class="card-text">El alto rendimiento exige aros resistentes a clavados y golpes fuertes. Hoy en día existen certificaciones internacionales para asegurar su calidad y la de tu cancha</p>
+                  <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-6" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-3">
+                <img src="..\static\core\img\Balon Profesional.jpg" alt="BalonProfesional" width="100%" height="100%">
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title">Balones</h5>
+                  <p class="card-text">Que tu juego sea un espectáculo, encuentra los balones utilizados por las grandes estrellas del Básketball mundial</p>
+                  <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>    
+    </div>
+</div>
+<hr class="hr-transparente">   
+</div>
+<hr class="hr-transparente">
+<!-- Contenedor de video -->
+<div class="container">
+  <div class="d-flex justify-content-center">
+    <div class="embed-responsive embed-responsive-16by9">
+    <iframe width="1200" height="500" src="https://www.youtube.com/embed/DsxxgJTXr8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>      
+  </div>    
+</div>
+<hr class="hr-transparente">
+{% endblock %} 
